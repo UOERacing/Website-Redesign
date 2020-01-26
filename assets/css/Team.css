@@ -396,7 +396,7 @@ textarea {
 }
 
 a {
-    color: #5f9dd2;
+    color: black;
 }
 
 strong,
@@ -2110,7 +2110,7 @@ input[type="radio"]:focus+label:before {
 }
 
 .image.fit {
-    display: block;
+    display: inline-block;
     margin: 0 0 2em 0;
     width: 100%;
 }
@@ -2121,7 +2121,6 @@ input[type="radio"]:focus+label:before {
 
 .image.main {
     display: block;
-    margin: 0 0 3em 0;
     width: 100%;
 }
 
@@ -3666,7 +3665,7 @@ body.is-mobile .wrapper.cta {
 }
 
 .wrapper.sidebar.left>.inner>.content {
-    padding: 0 6em 0 4em;
+    padding: 0 4em 0 4em;
 }
 
 @media screen and (max-width: 980px) {
@@ -3805,8 +3804,8 @@ body.landing {
 #sticky {
     position: sticky;
     position: -webkit-sticky;
-    top: 70px;
-    bottom: 70px;
+    top: 5px;
+    bottom: 5px;
 }
 
 .category {
@@ -3815,8 +3814,39 @@ body.landing {
     background-color: rgba(243, 239, 239, 0.933);
     position: sticky;
     position: -webkit-sticky;
-    top: 70px;
-    bottom: 70px;
+    top: 2em;
+    bottom: 10px;
+}
+
+.picture {
+    display: block;
+}
+
+.overlay {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #f8e1ea;
+}
+
+.image.fit:hover .overlay {
+    opacity: 0.5;
+}
+
+.overlay.text {
+    font-size: 20px;
+    position: absolute;
+}
+
+.text {
+    text-align: center;
 }
 
 #header {
@@ -3868,7 +3898,7 @@ body.landing {
 #header h1:before {
     background: #ffffff;
     border-radius: 100%;
-    color: #5f9dd2;
+    color: white;
     content: '\f1b3';
     display: inline-block;
     font-size: 0.9em;

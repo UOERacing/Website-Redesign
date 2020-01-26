@@ -3809,6 +3809,16 @@ body.landing {
     bottom: 70px;
 }
 
+.category {
+    z-index: 1;
+    display: block;
+    background-color: rgba(243, 239, 239, 0.933);
+    position: sticky;
+    position: -webkit-sticky;
+    top: 70px;
+    bottom: 70px;
+}
+
 #header {
     background: #2F373F;
     color: #ffffff;

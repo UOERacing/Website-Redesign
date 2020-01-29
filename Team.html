@@ -1104,12 +1104,25 @@
                     var modal = modalPop[index];
                     modal.style.display="block";
                     
+                    //click Esc key to exit modal 
+                    document.addEventListener('keydown',function(e){
+                        let keyCode = e.keyCode;
+                        if(keyCode == 27){
+                            modal.style.display="none";
+                        }
+                    
+                    });
+                    
+                    
                     //if clicked outside of modal then close
                     window.onclick = function(event){
                         if(event.target == modalPop[index]){
                             modal.style.display="none";
                         }
                     }
+                    
+                    
+
                 }    
             })(i);
 

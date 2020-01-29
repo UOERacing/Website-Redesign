@@ -3818,9 +3818,7 @@ body.landing {
 }
 
 .overlay {
-    display: inline-block;
     position: absolute;
-    top: 0;
     bottom: 0;
     left: 0;
     right: 0;
@@ -3828,18 +3826,32 @@ body.landing {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #f8e1ea;
+    cursor: pointer;
+    
+    
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    pointer-events: none;
+
 }
 
 .image.fit:hover .overlay {
     opacity: 0.5;
 }
 
-.overlay.text {
-    font-size: 20px;
-    position: absolute;
-    text-align: center;
-}
+
 
 .modal {
     display: none;

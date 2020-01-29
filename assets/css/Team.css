@@ -3875,6 +3875,14 @@ body.landing {
     max-width: 300px;
 }
 
+.close{
+    color: #4d5968;
+    float: right;
+    font-size: 40px;
+    font-weight: bold;
+    cursor:pointer;
+}
+
 #header {
     background: #2F373F;
     color: #ffffff;

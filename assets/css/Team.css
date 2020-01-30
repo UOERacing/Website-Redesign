@@ -3660,6 +3660,7 @@ body.is-mobile .wrapper.cta {
 
 .wrapper.sidebar.left>.inner>.content {
     padding: 0 4em 0 4em;
+    position: relative;
 }
 
 @media screen and (max-width: 980px) {

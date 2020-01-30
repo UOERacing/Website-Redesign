@@ -3827,6 +3827,7 @@ body.landing {
     opacity: 0;
     transition: .5s ease;
     cursor: pointer;
+    background-color: #f8e1ea;
     
     
 }
@@ -3836,7 +3837,7 @@ body.landing {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    color: #ffffff;
+    color: #4d5968;
     text-align: center;
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;

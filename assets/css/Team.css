@@ -3815,8 +3815,7 @@ body.landing {
 
 .picture {
     display: block;
-    max-width: 12vw;
-    min-height: 12vw;
+    max-width: 175px;
 }
 
 .overlay {
@@ -3888,7 +3887,7 @@ body.landing {
 
 .tooltip .tooltiptext {
     visibility: hidden;
-    width: 12vw;
+    max-width: 175px;
     background-color: #555;
     color: #fff;
     text-align: center;
@@ -3899,7 +3898,7 @@ body.landing {
     z-index: 2;
     top: 102%;
     left: 50%;
-    margin-left: -6vw;
+    margin-left: -87.5px;
     /* Fade in tooltip */
     opacity: 0;
     transition: opacity 0.5s;

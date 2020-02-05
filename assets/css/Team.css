@@ -3887,9 +3887,9 @@ body.landing {
 
 .tooltip .tooltiptext {
     visibility: hidden;
-    max-width: 175px;
-    background-color: #555;
-    color: #fff;
+    width: 350px;
+    background-color: rgba(243, 239, 239, 0.933);
+    color: black;
     text-align: center;
     padding: 1px 0;
     border-radius: 6px;
@@ -3898,7 +3898,7 @@ body.landing {
     z-index: 2;
     top: 102%;
     left: 50%;
-    margin-left: -87.5px;
+    margin-left: -175px;
     /* Fade in tooltip */
     opacity: 0;
     transition: opacity 0.5s;

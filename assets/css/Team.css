@@ -3916,6 +3916,11 @@ body.landing {
     opacity: 1;
 }
 
+.logo {
+    display: inline;
+    max-width: 25px;
+}
+
 .close {
     color: #4d5968;
     float: right;

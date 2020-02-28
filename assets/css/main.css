@@ -2084,7 +2084,7 @@ input[type="radio"]:focus+label:before {
 
 .image img {
     border-radius: 5px;
-    display: block;
+    display: auto;
 }
 
 .image.left,
@@ -3650,12 +3650,12 @@ body.is-mobile .wrapper.cta {
 }
 
 .wrapper.sidebar>.inner>.content {
-    width: 60%;
+    width: 70%;
     padding: 0 4em 0 0;
 }
 
 .wrapper.sidebar>.inner>.sidebar {
-    width: 40%;
+    width: 30%;
 }
 
 .wrapper.sidebar.left>.inner {

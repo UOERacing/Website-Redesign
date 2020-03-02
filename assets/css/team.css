@@ -37,3 +37,8 @@
 .team-type {
     margin-top: 4em;
 }
+
+.sticky {
+    position: sticky;
+    position: -webkit-sticky;
+}
